@@ -1,0 +1,70 @@
+img {
+    max-width: 100%;
+    display: block;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 24px;
+}
+
+.svago .item {
+    display: flex;
+    gap:48px;
+    margin-bottom:24px;
+}
+
+.svago .item .img {
+    width: 40%;
+    margin-top: 50px;
+}
+
+.svago .item .img img{ 
+    /*height: 400px;*/
+    width: 100%;
+    object-fit: cover;
+}
+
+.svago .item .text {
+    width: 70%;
+    margin-top: 50px;
+}
+
+.container-square {
+    display: flex;
+    gap: 12px;
+}
+
+.container-square .square_fermate {
+    min-width: 80px;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 22px;
+    background: #066cd1;
+    color: #fff;
+    text-align: center;
+}
+
+.container-square .square_linee {
+    min-width: 80px;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 22px;
+    background: #ddb607;
+    color: #fff;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 500px) {
+    .svago .item {
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 24px;
+    }
+
+    .svago .item .img, .svago .item .text  {
+        width: 100%;
+    }
+}

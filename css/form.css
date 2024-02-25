@@ -1,0 +1,32 @@
+.responsive-form {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.testo{
+  text-align: center;
+  color: black;
+}
+
+.responsive-form input[type="text"], .responsive-form input[type="email"], .responsive-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.responsive-form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #ddbd04;
+  color: #fff;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 500px) {
+  .responsive-form input[type="text"], .responsive-form input[type="email"], .responsive-form textarea {
+    font-size: 14px;
+  }

@@ -1,0 +1,20 @@
+.container {
+	display: flex;
+}
+
+.column {
+	  flex: 33.33%;
+	  padding: 10px;
+	  margin: 15px;
+	  background-color: #cccccc;
+	  text-align: center;
+	}
+
+   
+   @media screen and (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 24px;
+    }
+   }

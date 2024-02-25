@@ -1,0 +1,19 @@
+.container {
+	display: flex;
+}
+
+.column-footer{
+     flex: 33.33%;
+	 padding: 10px;
+	 margin: 15px;
+	 background-color: #ffffff;
+	 text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 24px;
+    }
+}
